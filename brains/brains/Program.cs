@@ -21,6 +21,11 @@ namespace brains
             leftLine.Draw();
             rightLine.Draw();
 
+            Point p = new Point(4, 5, '*');
+            Snake s = new Snake(p, 4, Direction.RIGHT);
+
+            s.Draw();
+
 
             Console.ReadLine();
         }
